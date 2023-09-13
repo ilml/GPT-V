@@ -1,3 +1,5 @@
+import os
+
 def read_ucf101_video(root_dir):
     video_filepaths = []
     for subdir, _, files in os.walk(root_dir):
